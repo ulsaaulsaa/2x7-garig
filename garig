@@ -1,0 +1,12 @@
+myfirstarray[0] = " davaa 18c dulaan bn"
+myfirstarray[1] = " mygmar 17c dulaan bn"
+myfirstarray[2] = " lhagva 21c dulaan bn"
+myfirstarray[3] = " purev 14c dulaan bn"
+myfirstarray[4] = " baasan 20c dulaan bn"
+myfirstarray[5] = " bymba 11c dulaan bn"
+myfirstarray[6] = " nym 13c dulaan bn"
+
+
+For i = 0 To 6 step 1
+    TextWindow.WriteLine(i+"="+myfirstarray[i])
+EndFor
